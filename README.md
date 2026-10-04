@@ -1,5 +1,10 @@
 # 🧭 AI Travel Guide — Smart Audio & Itinerary Companion
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-success?style=for-the-badge&logo=vercel)](https://ai-travel-guide-six.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/MohithKumarVemuri/AI_Travel_Guide)
+
+> 🌐 **Live Website:** [https://ai-travel-guide-six.vercel.app/](https://ai-travel-guide-six.vercel.app/)
+
 A full-stack, AI-powered travel companion web application that generates immersive audio guides, historical transcripts, multilingual narrations, and custom day-by-day trip itineraries for iconic landmarks worldwide.
 
 ---
