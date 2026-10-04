@@ -6,5 +6,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from Backend.app import app
 
-# Handler for Vercel serverless
-# app is the WSGI callable
+# Expose WSGI callable for Vercel
+handler = app
+
