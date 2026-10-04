@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "Frontend/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(generate-audio-guide|search-place|generate-itinerary|health)",
+      "dest": "/api/index.py"
+    },
+    {
+      "src": "/index.js",
+      "dest": "/Frontend/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/Frontend/index.html"
+    }
+  ]
+}
